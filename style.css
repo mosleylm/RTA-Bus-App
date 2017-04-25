@@ -1,0 +1,18 @@
+tr {
+	width: 100%;
+	display: inline-table;
+	height:60px;
+	table-layout: fixed;
+}
+
+table {
+	height:300px;
+	display: -moz-groupbox;
+}
+
+tbody {
+	overflow-y: scroll;
+	height:200px;
+	width: 100%;
+	position:aboslute;
+}

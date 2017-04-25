@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule bus$ /~mosleylm/RTA/rta.php [L]
+
+#RewriteRule rewrite/(.*)/(.*)/(.*)$ /~mosleylm/RTA/rtaServer.php?route=$1&stop=$2&nextEntires=$3 [L]
+#RewriteRule rewrite/(.*)$ /~mosleylm/RTA/rtaServer.php [L]
+#RewriteRule rewrite/(.*)$ /~mosleylm/RTA/rtaServer.php?route=$1 [L]
+RewriteRule times/(.*)/(.*)/(.*)$ /~mosleylm/RTA/rtaServer.php?route=$1&stop=$2&nextEntries=$3 [L]
+RewriteRule stops/(.*)$ /~mosleylm/RTA/rtaServer.php?route=$1 [L]
+RewriteRule routes$ /~mosleylm/RTA/rtaServer.php [L]
