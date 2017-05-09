@@ -1,7 +1,7 @@
 <?php
-$servername = "mosleylm.451.csi.miamioh.edu";
-$username = "rtaUser";
-$password = "miamitest";
+$servername = "***********";
+$username = "***********";
+$password = "*********";
 $dbname = "RTA";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
